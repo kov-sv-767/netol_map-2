@@ -8,6 +8,7 @@ public class Main {
 
         System.out.println(wordsChecker.hasWord("amet"));
         System.out.println(wordsChecker.hasWord("double"));
+
     }
 }
 
