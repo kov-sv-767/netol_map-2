@@ -12,8 +12,6 @@ public class WordsChecker {
     Set<String> textSet = new HashSet<>();
 
     public boolean hasWord(String word) {
-        String textLow = text.toLowerCase();
-        textSet.addAll((List.of(textLow.split("\\P{IsAlphabetic}+"))));
         return textSet.contains(word);
     }
 
